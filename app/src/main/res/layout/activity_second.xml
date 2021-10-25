@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".SecondActivity">
+
+        <ImageView
+            android:id="@+id/strDrinkThumb"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/strInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:lines="3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/strDrinkThumb"
+            android:text="Kelloggs Corn Flakes Honey and Almond 400gm"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/dateModified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/strInstructions"
+            android:layout_below="@+id/strInstructions"
+            android:layout_marginTop="10dp"
+            android:text="MRP: "
+            android:textSize="14dp"
+            android:textColor="#757575"/>
+
+        <TextView
+            android:id="@+id/strCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/strInstructions"
+            android:layout_below="@+id/dateModified"
+            android:layout_marginTop="10dp"
+            android:text="BB:  "
+            android:textSize="14dp"
+            android:textColor="#757575"/>
+        <TextView
+            android:id="@+id/strGlass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/strInstructions"
+            android:layout_below="@+id/strCategory"
+            android:layout_marginTop="10dp"
+            android:text="BB:  "
+            android:textSize="14dp"
+            android:textColor="#757575"/>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/strGlass"
+            android:layout_marginTop="5dp"
+            android:background="#E6E6E6" />
+
+    </RelativeLayout>
+

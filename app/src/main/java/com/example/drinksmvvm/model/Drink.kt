@@ -3,7 +3,6 @@ package com.example.drinksmvvm.model
 data class Drink(
     val dateModified: String,
     val idDrink: String,
-
     val strAlcoholic: String,
     val strCategory: String,
     val strCreativeCommonsConfirmed: String,

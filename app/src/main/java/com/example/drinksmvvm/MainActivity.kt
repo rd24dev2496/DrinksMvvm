@@ -13,7 +13,7 @@ import com.example.drinksmvvm.util.RetrofitService
 import com.example.drinksmvvm.view.MainAdapter
 import com.example.drinksmvvm.view.MainRepository
 import com.example.drinksmvvm.viewmodel.MainViewModel
-
+//This is my Main Activity(Experimental Branch)
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
     private lateinit var binding: ActivityMainBinding
